@@ -1,0 +1,460 @@
+body {
+  margin: 0px;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 1.5;
+  background-color: #f5f5f5;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+main {
+  max-width: 1000px;
+  margin: auto;
+}
+header {
+  background-color: white;
+  box-shadow: 1px 2px 3px gray;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}
+header .a1 {
+  padding-left: 60px;
+}
+header a {
+  padding: 8px 16px;
+  display: inline-block;
+  color: #0078ff;
+  font-size: 15px;
+}
+header ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+header h3 {
+  margin: 0;
+  font-size: 25px;
+}
+#firstSection {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(../Image/intro-bg.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+#firstSection h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+#firstSection p {
+  font-size: 37px;
+  color: white;
+}
+#sectionSecond {
+  background-color: white;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  box-shadow: 1px 2px 3px gray;
+  margin-top: 25px;
+}
+#sectionSecond > section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  font-size: 15px;
+}
+#sectionSecond > section .lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+#sectionSecond > section h4 {
+  font-size: 28px;
+  padding-bottom: 25px;
+  font-weight: 500;
+}
+#sectionSecond > section img {
+  border-radius: 5%;
+}
+#sectionSecond > section .progress {
+  background-color: #cde1f8;
+  margin: 0.5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: 0.7rem;
+}
+#sectionSecond > section .progress-bar {
+  height: 0.7rem;
+  background-color: #0078ff;
+}
+#sectionSecond > section .title-s {
+  font-weight: 600;
+  color: #1e1e1e;
+  font-size: 15px;
+}
+#services {
+  text-align: center;
+}
+#services .title-a {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+#services .line-mf {
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+  margin: 0 auto 30px auto;
+}
+#services .title-b {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  padding: 0.4rem 0;
+}
+#services .text-p {
+  color: #4e4e4e;
+  font-size: 14px;
+}
+#services > section {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+#services .service-box:hover .icon-content {
+  background-color: #0078ff;
+  box-shadow: 0 0 0 10px #0077ff77;
+  color: #fff;
+}
+#services .service-box {
+  border-radius: 20px;
+  padding: 20px 25px;
+  background-color: #fff;
+  margin: auto;
+}
+#services .service-box .icon-content {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 50px;
+  border-radius: 50%;
+  transition-duration: 0.5s;
+  box-shadow: 0 0 0 10px #0078ff;
+}
+#bg-color {
+  width: 100%;
+  background-image: url(../Image/download.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  margin: 25px 0;
+  color: white;
+  padding: 175px 0;
+}
+#bg-color .title-b {
+  font-weight: 400;
+  color: #CDE1F8;
+}
+#bg-color section {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 62px 0;
+  width: 100%;
+  opacity: 0.7;
+  background-color: #0078ff;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
+}
+#bg-color .service-box {
+  border-radius: 20px;
+  padding: 20px 25px;
+  margin: auto;
+}
+#bg-color .service-box .icon-content {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #CDE1F8;
+  color: #CDE1F8;
+}
+#portfolio {
+  width: 100%;
+}
+#portfolio .strongP {
+  color: black;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+}
+#portfolio .title-C {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+}
+#portfolio .line-mf {
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+  margin: 0 auto 30px auto;
+}
+#portfolio .subtitile-C {
+  text-align: center;
+  color: #4e4e4e;
+  margin-bottom: 1rem;
+  font-size: 15px;
+}
+#portfolio .fa-plus-circle {
+  color: #0078ff;
+  font-size: 32px;
+  padding-left: 105px;
+}
+#portfolio .blueSmall {
+  color: #0078ff;
+  font-size: 12px;
+  font-style: normal;
+}
+#portfolio .graySmall {
+  color: #4e4e4e;
+  font-size: 12px;
+  font-style: normal;
+}
+#portfolio .imageBox {
+  box-shadow: 1px 2px 3px gray;
+  overflow: hidden;
+  background-color: white;
+}
+#portfolio .imageBox p {
+  padding-left: 10px;
+  padding-top: 5px;
+  margin: 0;
+}
+#portfolio .imageBox img {
+  width: 100%;
+  transition: all 1s;
+}
+#portfolio .imageBox:hover img {
+  transform: scale(1.2);
+}
+#portfolio section {
+  padding: 20px;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+}
+#marta {
+  width: 100%;
+  background-image: url(../Image/trees.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  margin: 25px 0;
+  color: white;
+  padding: 220px 0;
+}
+#marta section {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  background-color: #0078ff;
+}
+#marta section div {
+  display: block;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 45px;
+}
+#marta section div h3 {
+  font-size: 28px;
+  font-weight: 400;
+}
+#marta section div img {
+  border-radius: 50%;
+}
+#blog {
+  width: 100%;
+  text-align: left;
+}
+#blog section {
+  padding: 20px;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+}
+#blog .strongP {
+  color: black;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  padding-left: 10px;
+}
+#blog .blog-p {
+  color: #4e4e4e;
+  padding-left: 10px;
+  font-size: 15px;
+}
+#blog .card-1 {
+  position: relative;
+}
+#blog .travel {
+  color: white;
+  background-color: #0078FF;
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 4px;
+  margin-left: 125px;
+  position: absolute;
+  top: 185px;
+  left: -7px;
+  font-size: 15px;
+}
+#blog .card-blog {
+  box-shadow: 1px 2px 3px gray;
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+}
+#blog .card-blog img {
+  width: 100%;
+}
+#blog .subtitile-C {
+  text-align: center;
+  color: #4e4e4e;
+  margin-bottom: 1rem;
+  font-size: 15px;
+}
+#blog .title-C {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+}
+#blog .line-mf {
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+  margin: 0 auto 30px auto;
+}
+#message {
+  padding: 45px 0;
+  width: 100%;
+  background-image: url(../Image/trees.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: grayscale(75%);
+  position: relative;
+  text-align: center;
+  color: black;
+}
+#message .copy {
+  color: white;
+}
+#message > section {
+  margin: 0 auto 30px auto;
+  width: 90%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+  background-color: white;
+  text-align: left;
+}
+#message > section .lastBox {
+  padding: 12px;
+}
+#message > section .lastBox p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #4e4e4e;
+}
+#message > section .lastBox .fas {
+  color: #0078FF;
+}
+#message > section .lastBox .lastP {
+  margin: 0;
+  padding: 4px;
+  color: black;
+}
+#message > section .lastBox h3 {
+  padding-left: 20px;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+#message > section .button-rouded {
+  border-radius: 5rem;
+}
+#message > section .button-big {
+  padding: 0.9rem 2.3rem;
+  font-size: 1.2rem;
+}
+#message > section .button {
+  margin-left: 10px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  transition: all 500ms ease;
+  cursor: pointer;
+}
+#message > section .button-a {
+  background-color: #0078ff;
+  color: #fff;
+  border-color: #cde1f8;
+}
+#message > section .form-control {
+  margin-left: 20px;
+  margin-bottom: 18px;
+  display: block;
+  width: 90%;
+  height: 25px;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+footer {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer div {
+  padding: 25px;
+}
